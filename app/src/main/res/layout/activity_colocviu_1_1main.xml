@@ -33,15 +33,15 @@
         android:text="SOUTH"
         android:onClick="onDirButtonClick"/>
 
-    <Button
-        android:id="@+id/eastButton"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_gravity="end"
-        android:layout_margin="10dp"
-        android:text="EAST"
-        android:onClick="onDirButtonClick"/>
+        <Button
+            android:id="@+id/eastButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:text="EAST"
+            android:onClick="onDirButtonClick"/>
 
         <Button
             android:id="@+id/westButton"
